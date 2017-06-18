@@ -1,0 +1,28 @@
+{
+  "name": "fm-devcon-17-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geistinteractive/fm-devcon-17-api.git"
+  },
+  "author": "Todd Geist <todd@geistinteractive.com> (http://www.geisintertactive.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geistinteractive/fm-devcon-17-api/issues"
+  },
+  "homepage": "https://github.com/geistinteractive/fm-devcon-17-api#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "json-refs": "^3.0.0",
+    "swagger-tools": "^0.10.1"
+  },
+  "devDependencies": {
+    "neutrino": "^6.0.2",
+    "neutrino-preset-node": "^6.0.2"
+  }
+}

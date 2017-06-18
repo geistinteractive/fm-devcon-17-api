@@ -1,0 +1,46 @@
+{
+  "paths": {
+    "/product": {
+      "get": {
+        "summary": "Get all products",
+        "x-swagger-router-controller": "Product",
+        "operationId": "findAllProducts",
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Products"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Products": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Product"
+      }
+    },
+    "Product": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

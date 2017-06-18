@@ -1,0 +1,17 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "you can do so many awesome things with it",
+    "version": "1.0.1",
+    "title": "Kart API",
+    "contact": {
+      "name": "Todd Geist",
+      "email": "todd@geistinteractive.com"
+    }
+  },
+  "paths": {
+    "/product": {
+      "$ref": "/product2.json"
+    }
+  }
+}
